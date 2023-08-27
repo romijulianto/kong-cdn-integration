@@ -1,0 +1,3 @@
+docker run --rm \
+--network=kong-net \
+pantsel/konga:next -c prepare -a postgres -u postgresql://user:romijulianto@kong-database:5432/konga_db
